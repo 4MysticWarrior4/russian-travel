@@ -16,3 +16,7 @@
 **Методы**
 
 Использование grid, @media и работа с минимальными/максимальными величинами.
+
+**Ссылка на GH Pages**
+
+(https://4mysticwarrior4.github.io/russian-travel/index.html)
