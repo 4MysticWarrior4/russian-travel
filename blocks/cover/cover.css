@@ -1,0 +1,16 @@
+.cover {
+    width: 1184px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    background-image: url(../../images/cover-trains.jpg);
+    padding: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        width: 100%;
+    }
+}

@@ -1,0 +1,33 @@
+.header__lang-link {
+    -ms-grid-column-align: end;
+        justify-self: end;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    color: #FFFFFF;
+}
+
+.header__lang-link:hover {
+    opacity: 0.4;
+    -webkit-transition: 0.8s;
+    -o-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.header__lang-link:nth-child(2) {
+    margin-right: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+}
+}

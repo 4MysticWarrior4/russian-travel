@@ -1,0 +1,46 @@
+.cover__overlay {
+    width: 100%;
+    min-height: 740px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+    background-color: rgb( 42, 44, 47, 0.2);
+}
+
+.cover__overlay:hover {
+    background-color: rgb( 42, 44, 47, 0.6);
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__overlay {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__overlay {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__overlay {
+        min-height: 200px;
+        margin: 0 auto;
+    }
+}

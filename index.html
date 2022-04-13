@@ -2,26 +2,28 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="/vendor/normalize.css" />
-    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <img class="header header__logo" src="images/header-logo.svg" />
+        <a class="header__logo" href="#" target="_self"></a>
         <a class="header__lang-link header__lang-link_underline" href="#">Ru</a>
         <a class="header__lang-link" href="#">En</a>
       </header>
-      <main class="content">
+    <main class="content">
         <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
           </p>
-          <img class="lead__image" src="/images/lead-polka.jpg" alt="УКАЗАТЬ" />
+          <div class="lead__items">
+          <img class="lead__image" src="../russian-travel/images/lead-polka.jpg" alt="Polka" />
           <p class="lead__caption">ваша полка — верхняя</p>
+          </div>
         </section>
         <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -48,62 +50,62 @@
         <section class="photo-grid">
           <img
             class="photo-grid__item"
-            src="/images/photo-grid-train.jpg"
-            alt="1"
+            src="../russian-travel/images/photo-grid-train.jpg"
+            alt="Train"
           />
           <img
             class="photo-grid__item"
-            src="/images/photo-grid-atharva-tulsi.jpg"
+            src="../russian-travel/images/photo-grid-atharva-tulsi.jpg"
             alt="2"
           />
           <img
             class="photo-grid__item"
-            src="/images/photo-grid-tuman.jpg"
+            src="../russian-travel/images/photo-grid-tuman.jpg"
             alt="3"
           />
           <img
             class="photo-grid__item"
-            src="/images/photo-grid-sochi.jpg"
+            src="../russian-travel/images/photo-grid-sochi.jpg"
             alt="4"
           />
           <img
             class="photo-grid__item"
-            src="/images/photo-grid-arisa.jpg"
+            src="../russian-travel/images/photo-grid-arisa.jpg"
             alt="5"
           />
           <img
             class="photo-grid__item"
-            src="/images/photo-grid-baikal.jpg"
+            src="../russian-travel/images/photo-grid-baikal.jpg"
             alt="6"
           />
           <img
             class="photo-grid__item"
-            src="/images/photo-grid-elbrus.jpg"
+            src="../russian-travel/images/photo-grid-elbrus.jpg"
             alt="7"
           />
           <img
             class="photo-grid__item"
-            src="/images/photo-grid-kondratiev.jpg"
+            src="../russian-travel/images/photo-grid-kondratiev.jpg"
             alt="8"
           />
           <img
             class="photo-grid__item"
-            src="/images/photo-grid-kamchatka-1.jpg"
+            src="../russian-travel/images/photo-grid-kamchatka-1.jpg"
             alt="9"
           />
           <img
             class="photo-grid__item"
-            src="/images/photo-grid-kamchatka-2.jpg"
+            src="../russian-travel/images/photo-grid-kamchatka-2.jpg"
             alt="10"
           />
           <img
             class="photo-grid__item"
-            src="/images/photo-grid-baikal-2.jpg"
+            src="../russian-travel/images/photo-grid-baikal-2.jpg"
             alt="11"
           />
           <img
             class="photo-grid__item"
-            src="/images/photo-grid-ergaki.jpg"
+            src="../russian-travel/images/photo-grid-ergaki.jpg"
             alt="12"
           />
         </section>
@@ -115,7 +117,7 @@
               <a class="place__link" href="http://park-kosa.ru" target="_blank">
                 park-kosa.ru</a>
             </div>
-            <img class="place__image" alt="1" src="/images/place-kosa.jpg" />
+            <img class="place__image" alt="1" src="../russian-travel/images/place-kosa.jpg" />
             <div class="place__paragraphs">
               <p class="place__paragraph">
                 Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
@@ -143,7 +145,7 @@
                 target="_blank">
                 National Geographic</a>
             </div>
-            <img class="place__image" alt="1" src="/images/place-kolsky.jpg" />
+            <img class="place__image" alt="Kolsky" src="../russian-travel/images/place-kolsky.jpg" />
             <div class="place__paragraphs">
               <p class="place__paragraph">
                 Почти весь полуостров находится за Полярным кругом. Саамская
@@ -171,7 +173,7 @@
                 target="_blank">
                 Facebook</a>
             </div>
-            <img class="place__image" alt="1" src="/images/place-altai.jpg" />
+            <img class="place__image" alt="1" src="../russian-travel/images/place-altai.jpg" />
             <div class="place__paragraphs">
               <p class="place__paragraph">
                 Алтай — одно из красивейших мест в России. В первую очередь
@@ -202,7 +204,7 @@
             <img
               class="place__image"
               alt="1"
-              src="/images/place-winter-baikal.jpg"
+              src="../russian-travel/images/place-winter-baikal.jpg"
             />
             <div class="place__paragraphs">
               <p class="place__paragraph">
@@ -226,7 +228,7 @@
               <p class="place__url-heading">URL</p>
               <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
             </div>
-            <img class="place__image" alt="1" src="/images/place-karelia.jpg" />
+            <img class="place__image" alt="1" src="../russian-travel/images/place-karelia.jpg" />
             <div class="place__paragraphs">
               <p class="place__paragraph">
                 Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
@@ -273,7 +275,7 @@
           </li>
         </ul>
         <p class="footer__copyright">&#169;&nbsp;2022&nbsp;Шалаев&nbsp;Иван</p>
-      </footer>
+      </footer> 
     </div>
   </body>
 </html>
